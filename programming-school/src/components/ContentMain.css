@@ -1,0 +1,85 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  padding: 0px 25px;
+}
+.contentTitle {
+  padding-top: 25px;
+}
+
+.contentSearch {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+.search {
+  width: 496px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  background: #edcfff;
+  padding: 0px 15px;
+}
+.search img {
+  width: 20px;
+}
+.search input {
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  outline: none;
+}
+.contentCourses {
+  height: 100%;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 25px;
+  overflow-y: scroll;
+}
+.card1 {
+  background-color: #dcf3ed;
+}
+.card2 {
+  background-color: #fbe9e2;
+}
+.card3 {
+  background-color: #f3e4df;
+}
+.card4 {
+  background-color: #e7e6ea;
+}
+.card5 {
+  background-color: #e3e2de;
+}
+.card6 {
+  background-color: #fcf5db;
+}
+.card {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+}
+.card h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contentFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
